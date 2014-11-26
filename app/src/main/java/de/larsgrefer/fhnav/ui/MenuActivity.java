@@ -60,8 +60,7 @@ public class MenuActivity extends InjectionActionBarActivity {
 
 	int topy = 0;
 
-	private SeparatedListAdapter build_agenda(
-			ArrayList<Veranstaltung> veranstaltungen) {
+	private SeparatedListAdapter build_agenda(ArrayList<Veranstaltung> veranstaltungen) {
 
 		SeparatedListAdapter separatedListAdapter = new SeparatedListAdapter(
 				this);

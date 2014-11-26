@@ -1,5 +1,6 @@
 package de.larsgrefer.fhnav.ui;
 
+import de.larsgrefer.android.library.injection.annotation.XmlLayout;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.BreadthFirstSearchTest;
 import de.larsgrefer.fhnav.controller.BreadthFirstSearchTest.Node;
@@ -16,6 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
+@XmlLayout(id = R.layout.activity_navigation, rClass = R.class)
 public class NavigationActivity extends InjectionActionBarActivity {
 
 	BreadthFirstSearchTest bfst;
@@ -23,7 +25,6 @@ public class NavigationActivity extends InjectionActionBarActivity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.navigation);
 
 		bfst = MainApplicationManager.getBfst();
 		bfst.search(bfst.getFrom(), bfst.getTo());

@@ -2,6 +2,7 @@ package de.larsgrefer.fhnav.ui;
 
 import java.util.Date;
 
+import de.larsgrefer.android.library.injection.annotation.XmlLayout;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.AktuellesParser;
 import de.larsgrefer.fhnav.controller.MainApplicationManager;
@@ -17,6 +18,7 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.TextView;
 
+@XmlLayout(id = R.layout.activity_splashScreen, rClass = R.class)
 public class SplashScreenActivity extends InjectionActionBarActivity {
 
 	long startTime;
@@ -59,7 +61,6 @@ public class SplashScreenActivity extends InjectionActionBarActivity {
 		super.onCreate(savedInstanceState);
 		Log.e(this.getClass().toString(), "Create");
 		MainApplicationManager.setFinish(false);
-		setContentView(R.layout.splashscreen);
 		t1 = (TextView) findViewById(R.id.textView1);
 		Date dt = new Date();
 		startTime = dt.getTime();

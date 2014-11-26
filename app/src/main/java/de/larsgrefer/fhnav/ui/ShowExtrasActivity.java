@@ -8,6 +8,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+import de.larsgrefer.android.library.injection.annotation.XmlLayout;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.CanteenBeanTest;
 import de.larsgrefer.fhnav.controller.I_Mensa_Downloader;
@@ -37,6 +38,7 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
+
 
 public class ShowExtrasActivity extends InjectionActionBarActivity implements Runnable,
 		I_Mensa_Downloader {

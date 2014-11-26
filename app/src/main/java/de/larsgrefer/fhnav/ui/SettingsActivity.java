@@ -1,5 +1,6 @@
 package de.larsgrefer.fhnav.ui;
 
+import de.larsgrefer.android.library.injection.annotation.XmlLayout;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.IOManager;
 import de.larsgrefer.fhnav.controller.MainApplicationManager;
@@ -23,6 +24,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Spinner;
 
+@XmlLayout(id = R.layout.activity_settings, rClass = R.class)
 public class SettingsActivity extends InjectionActionBarActivity {
 
 	Intent wizard;
@@ -37,8 +39,6 @@ public class SettingsActivity extends InjectionActionBarActivity {
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
-		setContentView(R.layout.settings);
 
 		wizard = new Intent(SettingsActivity.this, WizardActivity.class);
 		restartWizardButton = (Button) findViewById(R.id.settings_restart_wizard_button);

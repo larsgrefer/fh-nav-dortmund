@@ -2,6 +2,7 @@ package de.larsgrefer.fhnav.ui;
 
 import java.util.ArrayList;
 
+import de.larsgrefer.android.library.injection.annotation.XmlLayout;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.IOManager;
 import de.larsgrefer.fhnav.controller.MainApplicationManager;
@@ -26,6 +27,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 
+@XmlLayout(id = R.layout.activity_wizard, rClass = R.class)
 public class WizardActivity extends InjectionActionBarActivity implements Runnable {
 
 	public static final String PREFS_NAME = "settings";
@@ -142,7 +144,6 @@ public class WizardActivity extends InjectionActionBarActivity implements Runnab
 		super.onCreate(savedInstanceState);
 		Log.e("Wizard", "Create");
 
-		setContentView(R.layout.wizard);
 		getWindow().setBackgroundDrawableResource(R.drawable.bgunten);
 		AlertDialog.Builder adb = new AlertDialog.Builder(WizardActivity.this);
 		adb.setTitle(R.string.wizard_alert_title);

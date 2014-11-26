@@ -3,6 +3,7 @@ package de.larsgrefer.fhnav.ui;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import de.larsgrefer.android.library.injection.annotation.XmlLayout;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.IOManager;
 import de.larsgrefer.fhnav.controller.MainApplicationManager;
@@ -30,6 +31,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+@XmlLayout(id = R.layout.activity_vorlesung_add, rClass = R.class)
 public class AddVorlesungActivity extends InjectionActionBarActivity implements Runnable {
 	ProgressDialog dialog;
 	private ArrayList<Veranstaltung> veranstaltungen;
@@ -141,7 +143,6 @@ public class AddVorlesungActivity extends InjectionActionBarActivity implements 
 
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.addvorlesung);
 		separatedListAdapter = new SeparatedListAdapter(this);
 		dialog = ProgressDialog
 				.show(AddVorlesungActivity.this, "", "Download...", true);
