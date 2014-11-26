@@ -3,6 +3,7 @@ package fhnav.gui;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.IOManager;
 import fhnav.controller.MainApplicationManager;
 import fhnav.controller.PHPConnector;
@@ -28,7 +29,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-public class AddVorlesung extends Activity implements Runnable {
+public class AddVorlesung extends InjectionActionBarActivity implements Runnable {
 	ProgressDialog dialog;
 	private ArrayList<Veranstaltung> veranstaltungen;
 	public ExtendedListAdapter extendedListAdapter;

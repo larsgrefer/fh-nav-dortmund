@@ -3,6 +3,7 @@ package fhnav.gui;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.IOManager;
 import fhnav.controller.MainApplicationManager;
 import fhnav.controller.Tools;
@@ -24,7 +25,7 @@ import android.widget.Toast;
  * @author Moritz Wiechers
  * 
  */
-public class AdaptStundenplan extends Activity {
+public class AdaptStundenplan extends InjectionActionBarActivity {
 
 	private ArrayList<Veranstaltung> veranstaltungen;
 	public SeparatedListAdapter separatedListAdapter;

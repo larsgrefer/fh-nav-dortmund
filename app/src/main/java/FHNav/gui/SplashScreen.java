@@ -2,6 +2,7 @@ package fhnav.gui;
 
 import java.util.Date;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.AktuellesParser;
 import fhnav.controller.MainApplicationManager;
 import fhnav.controller.SettingsManager;
@@ -15,7 +16,7 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.TextView;
 
-public class SplashScreen extends Activity {
+public class SplashScreen extends InjectionActionBarActivity {
 
 	long startTime;
 	protected int _splashTime = 2000;

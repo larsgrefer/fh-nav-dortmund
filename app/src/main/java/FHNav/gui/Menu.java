@@ -6,6 +6,7 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.BreadthFirstSearchTest;
 import fhnav.controller.BreadthFirstSearchTest.Node;
 import fhnav.controller.CalendarAdapter;
@@ -39,7 +40,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class Menu extends Activity {
+public class Menu extends InjectionActionBarActivity {
 
 	Intent settings;
 	Intent adaptstundenplan;

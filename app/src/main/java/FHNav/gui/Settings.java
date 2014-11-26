@@ -1,5 +1,6 @@
 package fhnav.gui;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.IOManager;
 import fhnav.controller.MainApplicationManager;
 import fhnav.controller.SettingsManager;
@@ -21,7 +22,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Spinner;
 
-public class Settings extends Activity {
+public class Settings extends InjectionActionBarActivity {
 
 	Intent wizard;
 

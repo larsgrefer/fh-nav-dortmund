@@ -1,5 +1,6 @@
 package fhnav.gui;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.BreadthFirstSearchTest;
 import fhnav.controller.BreadthFirstSearchTest.Node;
 import fhnav.controller.MainApplicationManager;
@@ -14,7 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
-public class Navigation extends Activity {
+public class Navigation extends InjectionActionBarActivity {
 
 	BreadthFirstSearchTest bfst;
 	CView cv;

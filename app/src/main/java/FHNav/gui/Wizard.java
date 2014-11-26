@@ -2,6 +2,7 @@ package fhnav.gui;
 
 import java.util.ArrayList;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.IOManager;
 import fhnav.controller.MainApplicationManager;
 import fhnav.controller.PHPConnector;
@@ -24,7 +25,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 
-public class Wizard extends Activity implements Runnable {
+public class Wizard extends InjectionActionBarActivity implements Runnable {
 
 	public static final String PREFS_NAME = "settings";
 	ArrayList<String> spinnerContent;

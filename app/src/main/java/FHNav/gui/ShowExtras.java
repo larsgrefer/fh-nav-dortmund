@@ -8,6 +8,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
+import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import fhnav.controller.CanteenBeanTest;
 import fhnav.controller.I_Mensa_Downloader;
 import fhnav.controller.MainApplicationManager;
@@ -36,7 +37,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-public class ShowExtras extends Activity implements Runnable,
+public class ShowExtras extends InjectionActionBarActivity implements Runnable,
 		I_Mensa_Downloader {
 
 	private class HelloWebViewClient extends WebViewClient {
