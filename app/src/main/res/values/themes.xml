@@ -3,5 +3,7 @@
     <style name="Theme.FH_Nav" parent="Theme.AppCompat">
         <item name="colorPrimary">@color/material_deep_orange_500</item>
         <item name="colorPrimaryDark">@color/material_deep_orange_700</item>
+
+        <item name="ic_action_settings">@android:drawable/ic_menu_preferences</item>
     </style>
 </resources>
