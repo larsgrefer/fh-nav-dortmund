@@ -1,4 +1,4 @@
-package FHNav.model;
+package fhnav.model;
 
 /**
  * Item from the Aktuelles RSS feed.

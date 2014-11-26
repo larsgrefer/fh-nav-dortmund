@@ -1,14 +1,14 @@
-package FHNav.gui;
+package fhnav.gui;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import FHNav.controller.IOManager;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.Tools;
-import FHNav.gui.helper.ExtendedListAdapter;
-import FHNav.gui.helper.SeparatedListAdapter;
-import FHNav.model.Veranstaltung;
+import fhnav.controller.IOManager;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.Tools;
+import fhnav.gui.helper.ExtendedListAdapter;
+import fhnav.gui.helper.SeparatedListAdapter;
+import fhnav.model.Veranstaltung;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,7 +19,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 /**
- * GUI Klasse für das Löschen von Veranstaltungen
+ * GUI Klasse fï¿½r das Lï¿½schen von Veranstaltungen
  * 
  * @author Moritz Wiechers
  * 

@@ -1,8 +1,8 @@
-package FHNav.gui;
+package fhnav.gui;
 
-import FHNav.controller.BreadthFirstSearchTest;
-import FHNav.controller.BreadthFirstSearchTest.Node;
-import FHNav.controller.MainApplicationManager;
+import fhnav.controller.BreadthFirstSearchTest;
+import fhnav.controller.BreadthFirstSearchTest.Node;
+import fhnav.controller.MainApplicationManager;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -16,13 +16,13 @@ import android.view.MotionEvent;
 import android.view.View;
 
 /**
- * Prunkstück für Unkommentierten Code, den ich nie wieder verstehen werde.
+ * Prunkstï¿½ck fï¿½r Unkommentierten Code, den ich nie wieder verstehen werde.
  * 
  * Damals ging es um das Laden des Hintergrundes, das richtige Skalieren der
- * Auflösung des Bildes und des Graphens (x/y_scale_mapping) und um das Zoomen
+ * Auflï¿½sung des Bildes und des Graphens (x/y_scale_mapping) und um das Zoomen
  * in dieses Bild und der richtigen Darstellung des Graphen (x/y_scale_zoom)
- * Gelöst habe ich das mit Matrixabbildungen. Die Pinch2Zoomfunktion, also die
- * reine Tatsache, dass ein Pinch erkannt wird, ist übernommen aus einem
+ * Gelï¿½st habe ich das mit Matrixabbildungen. Die Pinch2Zoomfunktion, also die
+ * reine Tatsache, dass ein Pinch erkannt wird, ist ï¿½bernommen aus einem
  * Beispiel im Internet.
  * 
  * @author Moritz Wiechers

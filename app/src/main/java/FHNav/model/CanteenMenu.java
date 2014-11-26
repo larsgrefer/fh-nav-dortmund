@@ -1,9 +1,9 @@
-package FHNav.model;
+package fhnav.model;
 
 import java.util.Date;
 
 /**
- * Klasse für die Speiseplandaten
+ * Klasse fï¿½r die Speiseplandaten
  * 
  * @author Moritz Wiechers
  * 

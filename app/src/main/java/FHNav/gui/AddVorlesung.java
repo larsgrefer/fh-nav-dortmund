@@ -1,16 +1,16 @@
-package FHNav.gui;
+package fhnav.gui;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
-import FHNav.controller.IOManager;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.PHPConnector;
-import FHNav.controller.Tools;
-import FHNav.gui.helper.ExtendedListAdapter;
-import FHNav.gui.helper.SeparatedListAdapter;
-import FHNav.model.Stundenplan;
-import FHNav.model.Veranstaltung;
+import fhnav.controller.IOManager;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.PHPConnector;
+import fhnav.controller.Tools;
+import fhnav.gui.helper.ExtendedListAdapter;
+import fhnav.gui.helper.SeparatedListAdapter;
+import fhnav.model.Stundenplan;
+import fhnav.model.Veranstaltung;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -304,7 +304,7 @@ public class AddVorlesung extends Activity implements Runnable {
 				dialog.dismiss();
 			} else {
 				spinnerContent = new ArrayList<String>();
-				spinnerContent.add("Studiengang wählen");
+				spinnerContent.add("Studiengang wï¿½hlen");
 
 				spinnerContent.addAll(PHPConnector
 						.getAllBranches(getApplicationContext()));

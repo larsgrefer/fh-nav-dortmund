@@ -1,4 +1,4 @@
-package FHNav.gui;
+package fhnav.gui;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -8,13 +8,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
-import FHNav.controller.CanteenBeanTest;
-import FHNav.controller.I_Mensa_Downloader;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.Tools;
-import FHNav.gui.helper.NormalListAdapterForMenu;
-import FHNav.gui.helper.SeparatedListAdapter;
-import FHNav.model.CanteenMenu;
+import fhnav.controller.CanteenBeanTest;
+import fhnav.controller.I_Mensa_Downloader;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.Tools;
+import fhnav.gui.helper.NormalListAdapterForMenu;
+import fhnav.gui.helper.SeparatedListAdapter;
+import fhnav.model.CanteenMenu;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;

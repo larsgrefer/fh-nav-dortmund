@@ -1,8 +1,8 @@
-package FHNav.gui.service;
+package fhnav.gui.service;
 
-import FHNav.controller.AktuellesParser;
-import FHNav.gui.R;
-import FHNav.model.AktuellesItem;
+import fhnav.controller.AktuellesParser;
+import fhnav.gui.R;
+import fhnav.model.AktuellesItem;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;

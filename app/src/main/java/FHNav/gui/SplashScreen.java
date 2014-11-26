@@ -1,10 +1,10 @@
-package FHNav.gui;
+package fhnav.gui;
 
 import java.util.Date;
 
-import FHNav.controller.AktuellesParser;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.SettingsManager;
+import fhnav.controller.AktuellesParser;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.SettingsManager;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;

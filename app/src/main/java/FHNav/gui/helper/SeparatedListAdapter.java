@@ -1,9 +1,9 @@
-package FHNav.gui.helper;
+package fhnav.gui.helper;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import FHNav.gui.R;
+import fhnav.gui.R;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;

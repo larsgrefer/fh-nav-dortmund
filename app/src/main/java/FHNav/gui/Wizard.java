@@ -1,12 +1,12 @@
-package FHNav.gui;
+package fhnav.gui;
 
 import java.util.ArrayList;
 
-import FHNav.controller.IOManager;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.PHPConnector;
-import FHNav.controller.SettingsManager;
-import FHNav.model.Stundenplan;
+import fhnav.controller.IOManager;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.PHPConnector;
+import fhnav.controller.SettingsManager;
+import fhnav.model.Stundenplan;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -169,7 +169,7 @@ public class Wizard extends Activity implements Runnable {
 				});
 		adb.show();
 
-		// Bestätigungsbutton => Laden des Stundenplans...
+		// Bestï¿½tigungsbutton => Laden des Stundenplans...
 		Button btn = (Button) this.findViewById(R.id.WizardOK);
 		btn.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
@@ -238,7 +238,7 @@ public class Wizard extends Activity implements Runnable {
 			}
 
 		} else {
-			// T1 Liste der Stundenpläne downloaden und bei => H1 in Spinner
+			// T1 Liste der Stundenplï¿½ne downloaden und bei => H1 in Spinner
 			// packen
 			try {
 				spinnerContent = PHPConnector

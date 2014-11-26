@@ -1,9 +1,9 @@
-package FHNav.gui;
+package fhnav.gui;
 
-import FHNav.controller.IOManager;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.SettingsManager;
-import FHNav.model.Stundenplan;
+import fhnav.controller.IOManager;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.SettingsManager;
+import fhnav.model.Stundenplan;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;

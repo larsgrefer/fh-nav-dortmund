@@ -1,9 +1,9 @@
-package FHNav.sqlite;
+package fhnav.sqlite;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import FHNav.model.AktuellesItem;
+import fhnav.model.AktuellesItem;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;

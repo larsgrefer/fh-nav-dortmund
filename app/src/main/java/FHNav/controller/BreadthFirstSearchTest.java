@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -163,7 +163,7 @@ public class BreadthFirstSearchTest {
 		Node Nebeneingang = new Node("Nebeneingang", 555, 950, nodes);
 		Node Nebeneingangf = new Node("NebeneingangFlur", 555, 896);
 
-		// Hörsäle
+		// Hï¿½rsï¿½le
 		Node AE01 = new Node("A.E.01", 218, 1136, nodes);
 		Node AE01T1 = new Node("A.E.01T1", 218, 993);
 		Node AE01T1f = new Node("A.E.01T1Flur", 218, 955);
@@ -183,7 +183,7 @@ public class BreadthFirstSearchTest {
 		Node AE03T2 = new Node("A.E.03T2", 435, 736);
 		Node AE03T2f = new Node("A.E.03T2Flur", x_c_flur, 736);
 
-		// Räume links B-Trakt
+		// Rï¿½ume links B-Trakt
 		Node BE01 = new Node("B.E.01", 475, y_b_li, nodes);
 		Node BE01f = new Node("B.E.01Flur", 475, y_b_flur);
 
@@ -211,7 +211,7 @@ public class BreadthFirstSearchTest {
 		Node BE10 = new Node("B.E.10", 1150, y_b_li, nodes);
 		Node BE10f = new Node("B.E.10Flur", 1150, y_b_flur);
 
-		// Räume rechts B-Trakt
+		// Rï¿½ume rechts B-Trakt
 		Node BE20 = new Node("B.E.20", 585, y_b_re, nodes);
 		Node BE20f = new Node("B.E.20Flur", 585, y_b_flur);
 
@@ -224,7 +224,7 @@ public class BreadthFirstSearchTest {
 		Node BE24 = new Node("B.E.24", 1105, y_b_re, nodes);
 		Node BE24f = new Node("B.E.24Flur", 1105, y_b_flur);
 
-		// Räume rechts C-Trakt
+		// Rï¿½ume rechts C-Trakt
 		Node CE31 = new Node("C.E.31", x_c_re, 617, nodes);
 		Node CE31f = new Node("C.E.31Flur", x_c_flur, 617);
 
@@ -237,7 +237,7 @@ public class BreadthFirstSearchTest {
 		Node CE321 = new Node("C.E.32.1", x_c_re, 87, nodes);
 		Node CE321f = new Node("C.E.32.1Flur", x_c_flur, 87);
 
-		// Räume links C-Trakt
+		// Rï¿½ume links C-Trakt
 		Node CE40 = new Node("C.E.40", x_c_li, 626, nodes);
 		Node CE40f = new Node("C.E.40Flur", x_c_flur, 626);
 

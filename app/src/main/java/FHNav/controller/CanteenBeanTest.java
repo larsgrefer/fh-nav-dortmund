@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -13,7 +13,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import FHNav.model.CanteenMenu;
+import fhnav.model.CanteenMenu;
 
 public class CanteenBeanTest {
 

@@ -1,9 +1,9 @@
-package FHNav.controller;
+package fhnav.controller;
 
-import FHNav.gui.R;
+import fhnav.gui.R;
 
 /**
- * Klasse für kleine Transformationen (bis jetzt nur Wochentagsnamen und kürzel)
+ * Klasse fï¿½r kleine Transformationen (bis jetzt nur Wochentagsnamen und kï¿½rzel)
  * 
  * @author Moritz Wiechers
  * 

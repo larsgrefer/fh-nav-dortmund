@@ -1,4 +1,4 @@
-package FHNav.model;
+package fhnav.model;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -17,7 +17,7 @@ public class Veranstaltung implements Serializable, Comparable<Veranstaltung> {
 	private static final long serialVersionUID = 2879848547456847640L;
 
 	/**
-	 * Transformation für das Ende einer Veranstaltung
+	 * Transformation fï¿½r das Ende einer Veranstaltung
 	 * 
 	 * @param value
 	 * @param duration
@@ -33,7 +33,7 @@ public class Veranstaltung implements Serializable, Comparable<Veranstaltung> {
 	}
 
 	/**
-	 * Transformation für den Anfang einer Veranstaltung
+	 * Transformation fï¿½r den Anfang einer Veranstaltung
 	 * 
 	 * @param value
 	 * @return

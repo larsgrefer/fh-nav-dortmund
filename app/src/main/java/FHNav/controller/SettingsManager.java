@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.content.SharedPreferences.Editor;
 import android.preference.PreferenceManager;
 
 /**
- * Diese Klasse kümmert sich um die Verwaltung der Settings, die lokal auf dem
+ * Diese Klasse kï¿½mmert sich um die Verwaltung der Settings, die lokal auf dem
  * Smartphone gespeichert werden
  * 
  * @author Moritz Wiechers

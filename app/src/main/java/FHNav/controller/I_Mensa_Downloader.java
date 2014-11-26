@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 /**
  * Dient als Interface um der View der Activity Extras (Speiseplan) mitzuteilen,

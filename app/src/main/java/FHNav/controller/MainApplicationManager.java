@@ -1,10 +1,10 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.util.ArrayList;
 
-import FHNav.model.CanteenMenu;
-import FHNav.model.Stundenplan;
-import FHNav.model.Veranstaltung;
+import fhnav.model.CanteenMenu;
+import fhnav.model.Stundenplan;
+import fhnav.model.Veranstaltung;
 import android.app.Activity;
 
 /**

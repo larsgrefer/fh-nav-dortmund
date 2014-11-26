@@ -1,12 +1,12 @@
-package FHNav.gui.helper;
+package fhnav.gui.helper;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.SettingsManager;
-import FHNav.gui.R;
-import FHNav.model.Veranstaltung;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.SettingsManager;
+import fhnav.gui.R;
+import fhnav.model.Veranstaltung;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

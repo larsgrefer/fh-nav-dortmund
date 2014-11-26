@@ -1,11 +1,11 @@
-package FHNav.gui.helper;
+package fhnav.gui.helper;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-import FHNav.controller.SettingsManager;
-import FHNav.gui.R;
-import FHNav.model.Veranstaltung;
+import fhnav.controller.SettingsManager;
+import fhnav.gui.R;
+import fhnav.model.Veranstaltung;
 import android.content.Context;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -129,7 +129,7 @@ public class ExtendedListAdapter extends BaseAdapter {
 		holder.bottomtext.setText(bottomText);
 		holder.toptext.setText(topText);
 		holder.checkbox.setChecked(checked.get(position));
-		// Für Click auf Box
+		// Fï¿½r Click auf Box
 		holder.checkbox.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
@@ -139,7 +139,7 @@ public class ExtendedListAdapter extends BaseAdapter {
 				holder.checkbox.setChecked(!tmp);
 			}
 		});
-		// Für Click in Zeile
+		// Fï¿½r Click in Zeile
 		convertView.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {

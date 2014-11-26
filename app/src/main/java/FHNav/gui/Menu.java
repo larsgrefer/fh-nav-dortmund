@@ -1,4 +1,4 @@
-package FHNav.gui;
+package fhnav.gui;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -6,16 +6,16 @@ import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 
-import FHNav.controller.BreadthFirstSearchTest;
-import FHNav.controller.BreadthFirstSearchTest.Node;
-import FHNav.controller.CalendarAdapter;
-import FHNav.controller.IOManager;
-import FHNav.controller.MainApplicationManager;
-import FHNav.controller.SettingsManager;
-import FHNav.controller.Tools;
-import FHNav.gui.helper.NormalListAdapter;
-import FHNav.gui.helper.SeparatedListAdapter;
-import FHNav.model.Veranstaltung;
+import fhnav.controller.BreadthFirstSearchTest;
+import fhnav.controller.BreadthFirstSearchTest.Node;
+import fhnav.controller.CalendarAdapter;
+import fhnav.controller.IOManager;
+import fhnav.controller.MainApplicationManager;
+import fhnav.controller.SettingsManager;
+import fhnav.controller.Tools;
+import fhnav.gui.helper.NormalListAdapter;
+import fhnav.gui.helper.SeparatedListAdapter;
+import fhnav.model.Veranstaltung;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;

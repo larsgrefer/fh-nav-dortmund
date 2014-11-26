@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -17,17 +17,17 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import FHNav.model.Stundenplan;
-import FHNav.model.Veranstaltung;
+import fhnav.model.Stundenplan;
+import fhnav.model.Veranstaltung;
 import android.content.Context;
 import android.util.Log;
 
 public class PHPConnector {
 
 	/**
-	 * Generiert eine Liste mit allen Stundenplänen
+	 * Generiert eine Liste mit allen Stundenplï¿½nen
 	 * 
-	 * @return Liste mit allen Stundenplänen
+	 * @return Liste mit allen Stundenplï¿½nen
 	 */
 	public static ArrayList<String> getAllBranches(Context ctx) {
 
@@ -54,11 +54,11 @@ public class PHPConnector {
 
 	/**
 	 * Ruft die entsprechende php Datei auf dem Server mit den angegebenen
-	 * Parametern auf und parst die Rückgabe in ein JSONArray
+	 * Parametern auf und parst die Rï¿½ckgabe in ein JSONArray
 	 * 
 	 * @param nvp
-	 *            Gibt im Endeffekt an welche mysql-db anfrage ausgeführt werden
-	 *            soll. (liegen in der php datei) Dies findet über einfach Get
+	 *            Gibt im Endeffekt an welche mysql-db anfrage ausgefï¿½hrt werden
+	 *            soll. (liegen in der php datei) Dies findet ï¿½ber einfach Get
 	 *            Variablen in der URL statt
 	 * @return
 	 */

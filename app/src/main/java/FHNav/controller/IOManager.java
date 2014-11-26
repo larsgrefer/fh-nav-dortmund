@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-import FHNav.model.Stundenplan;
+import fhnav.model.Stundenplan;
 import android.content.Context;
 
 public class IOManager {
@@ -17,7 +17,7 @@ public class IOManager {
 	private static String save_dir = "private";
 
 	/**
-	 * gibt den lokalen Pfad zurück
+	 * gibt den lokalen Pfad zurï¿½ck
 	 * 
 	 * @param ctx
 	 * @return
@@ -33,7 +33,7 @@ public class IOManager {
 	}
 
 	/**
-	 * Lädt den Stundenplan.
+	 * Lï¿½dt den Stundenplan.
 	 * 
 	 * @param ctx
 	 *            immer der ApplicationContext

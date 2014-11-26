@@ -1,4 +1,4 @@
-package FHNav.model;
+package fhnav.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;

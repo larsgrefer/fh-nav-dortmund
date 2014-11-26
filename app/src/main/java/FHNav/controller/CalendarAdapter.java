@@ -1,10 +1,10 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 
-import FHNav.model.Veranstaltung;
+import fhnav.model.Veranstaltung;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -44,14 +44,14 @@ public class CalendarAdapter {
 	}
 
 	/**
-	 * Fügt ein wiederkehrendes Ereignis in den Android Kalender ein
+	 * Fï¿½gt ein wiederkehrendes Ereignis in den Android Kalender ein
 	 * 
 	 * @param ver
-	 *            Die Veranstaltung, die eingefügt werden soll
+	 *            Die Veranstaltung, die eingefï¿½gt werden soll
 	 * @param start
-	 *            Startdatum für die Veranstaltungsfolge
+	 *            Startdatum fï¿½r die Veranstaltungsfolge
 	 * @param end
-	 *            Enddatum für die Veranstaltungsfolge
+	 *            Enddatum fï¿½r die Veranstaltungsfolge
 	 */
 	public void addRecEventToCalendar(Veranstaltung ver, Date start, Date end) {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd");

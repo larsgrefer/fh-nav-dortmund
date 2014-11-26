@@ -1,8 +1,8 @@
-package FHNav.gui;
+package fhnav.gui;
 
-import FHNav.controller.BreadthFirstSearchTest;
-import FHNav.controller.BreadthFirstSearchTest.Node;
-import FHNav.controller.MainApplicationManager;
+import fhnav.controller.BreadthFirstSearchTest;
+import fhnav.controller.BreadthFirstSearchTest.Node;
+import fhnav.controller.MainApplicationManager;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;

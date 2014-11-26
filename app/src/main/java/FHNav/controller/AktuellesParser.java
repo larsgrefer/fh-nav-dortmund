@@ -1,4 +1,4 @@
-package FHNav.controller;
+package fhnav.controller;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -11,8 +11,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
 
-import FHNav.model.AktuellesItem;
-import FHNav.sqlite.AktuellesDAO;
+import fhnav.model.AktuellesItem;
+import fhnav.sqlite.AktuellesDAO;
 import android.content.Context;
 
 /**

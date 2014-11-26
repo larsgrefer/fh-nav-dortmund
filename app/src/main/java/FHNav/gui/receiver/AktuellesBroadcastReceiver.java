@@ -1,6 +1,6 @@
-package FHNav.gui.receiver;
+package fhnav.gui.receiver;
 
-import FHNav.gui.service.AktuellesNotificationService;
+import fhnav.gui.service.AktuellesNotificationService;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
