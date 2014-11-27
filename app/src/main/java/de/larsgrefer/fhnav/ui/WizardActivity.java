@@ -3,6 +3,7 @@ package de.larsgrefer.fhnav.ui;
 import java.util.ArrayList;
 
 import de.larsgrefer.android.library.injection.annotation.XmlLayout;
+import de.larsgrefer.android.library.injection.annotation.XmlView;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.IOManager;
 import de.larsgrefer.fhnav.controller.MainApplicationManager;
@@ -27,11 +28,12 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 
-@XmlLayout(id = R.layout.activity_wizard, rClass = R.class)
+@XmlLayout(R.layout.activity_wizard)
 public class WizardActivity extends InjectionActionBarActivity implements Runnable {
 
 	public static final String PREFS_NAME = "settings";
 	ArrayList<String> spinnerContent;
+	@XmlView(R.id.Spinner01)
 	Spinner spinner1;
 	ProgressDialog dialog;
 	boolean loadSpinner = true;

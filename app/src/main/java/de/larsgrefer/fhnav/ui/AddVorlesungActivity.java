@@ -31,7 +31,7 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-@XmlLayout(id = R.layout.activity_vorlesung_add, rClass = R.class)
+@XmlLayout(R.layout.activity_vorlesung_add)
 public class AddVorlesungActivity extends InjectionActionBarActivity implements Runnable {
 	ProgressDialog dialog;
 	private ArrayList<Veranstaltung> veranstaltungen;

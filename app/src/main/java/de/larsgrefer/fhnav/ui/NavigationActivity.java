@@ -17,7 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.Spinner;
 
-@XmlLayout(id = R.layout.activity_navigation, rClass = R.class)
+@XmlLayout(R.layout.activity_navigation)
 public class NavigationActivity extends InjectionActionBarActivity {
 
 	BreadthFirstSearchTest bfst;

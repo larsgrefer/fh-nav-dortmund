@@ -24,7 +24,7 @@ import android.widget.CompoundButton;
 import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.Spinner;
 
-@XmlLayout(id = R.layout.activity_settings, rClass = R.class)
+@XmlLayout(R.layout.activity_settings)
 public class SettingsActivity extends InjectionActionBarActivity {
 
 	Intent wizard;

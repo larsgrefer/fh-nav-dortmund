@@ -7,6 +7,8 @@ import java.util.Collections;
 import java.util.Date;
 
 import de.larsgrefer.android.library.injection.annotation.XmlLayout;
+import de.larsgrefer.android.library.injection.annotation.XmlMenu;
+import de.larsgrefer.android.library.injection.annotation.XmlView;
 import de.larsgrefer.android.library.ui.InjectionActionBarActivity;
 import de.larsgrefer.fhnav.controller.BreadthFirstSearchTest;
 import de.larsgrefer.fhnav.controller.BreadthFirstSearchTest.Node;
@@ -42,7 +44,8 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-@XmlLayout(id = R.layout.activity_menu, rClass = R.class)
+@XmlLayout(R.layout.activity_menu)
+@XmlMenu(R.menu.menu_main)
 public class MenuActivity extends InjectionActionBarActivity {
 
 	Intent settings;
@@ -54,7 +57,8 @@ public class MenuActivity extends InjectionActionBarActivity {
 	SeparatedListAdapter listAdapter;
 	boolean agenda = false;
 	ListView lv1;
-	TextView header;
+	@XmlView
+	TextView menu_header;
 
 	int visibleFirst = 0;
 
@@ -308,8 +312,8 @@ public class MenuActivity extends InjectionActionBarActivity {
 			MainApplicationManager.setStundenplan(IOManager
 					.loadStundenplan(getApplicationContext()));
 
-			header = (TextView) findViewById(R.id.menu_header);
-			header.setText(getString(R.string.normal_view));
+			menu_header = (TextView) findViewById(R.id.menu_header);
+			menu_header.setText(getString(R.string.normal_view));
 			veranstaltungen = MainApplicationManager.getVeranstaltungen();
 			BreadthFirstSearchTest bfst = new BreadthFirstSearchTest();
 			bfst.initGraph();
@@ -337,9 +341,9 @@ public class MenuActivity extends InjectionActionBarActivity {
 									if (item == 0) {
 										agenda = !agenda;
 										if (agenda) {
-											header.setText(getString(R.string.agenda_view));
+											menu_header.setText(getString(R.string.agenda_view));
 										} else {
-											header.setText(getString(R.string.normal_view));
+											menu_header.setText(getString(R.string.normal_view));
 										}
 
 										refresListView(true);
@@ -445,12 +449,6 @@ public class MenuActivity extends InjectionActionBarActivity {
 					.getDisplayMetrics().density);
 		}
 		// FlurryAgent.onStartSession(this, "I7RRJ22MKL64Q9JLNZW8");
-	}
-
-	@Override
-	public boolean onCreateOptionsMenu(android.view.Menu menu) {
-		getMenuInflater().inflate(R.menu.menu_main, menu);
-		return super.onCreateOptionsMenu(menu);
 	}
 
 	public void onStop() {

@@ -27,7 +27,7 @@ import android.widget.Toast;
  * @author Moritz Wiechers
  * 
  */
-@XmlLayout(id = R.layout.activity_stundenplan, rClass = R.class)
+@XmlLayout(R.layout.activity_stundenplan)
 public class AdaptStundenplanActivity extends InjectionActionBarActivity {
 
 	private ArrayList<Veranstaltung> veranstaltungen;

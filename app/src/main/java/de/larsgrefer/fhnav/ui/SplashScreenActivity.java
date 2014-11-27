@@ -18,7 +18,7 @@ import android.os.Message;
 import android.util.Log;
 import android.widget.TextView;
 
-@XmlLayout(id = R.layout.activity_splashScreen, rClass = R.class)
+@XmlLayout(R.layout.activity_splash_screen)
 public class SplashScreenActivity extends InjectionActionBarActivity {
 
 	long startTime;
